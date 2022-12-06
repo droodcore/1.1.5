@@ -18,7 +18,13 @@
                 </configuration>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/java/jm/task/core/jdbc/config</directory>
+            </resource>
+        </resources>
     </build>
+
 
     <dependencies>
 <!--         Ваши зависимости-->

@@ -5,7 +5,6 @@ import org.hibernate.Session;
 import org.hibernate.cfg.Configuration;
 
 
-
 public class Util {
     public static Session getSession() {
         return new Configuration().addAnnotatedClass(User.class).buildSessionFactory().getCurrentSession();
